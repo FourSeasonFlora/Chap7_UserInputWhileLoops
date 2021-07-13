@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>48e0b459-89f8-4366-8c07-5c987d786a6c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Chap7_UserInputWhileLoops.py</StartupFile>
+    <StartupFile>WhileLoopCont\WhileLoopCont.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Chap7_UserInputWhileLoops.py" />
+    <Compile Include="WhileLoopCont\WhileLoopCont.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="WhileLoopCont\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
